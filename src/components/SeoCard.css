@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardConteiner {
+  width: 210px;
+  height: 260px;
+  border-radius: 40px;
+  border: solid 1px #f3f3f3;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 133px;
+  height: 112px;
+}
+
+p {
+  width: 150px;
+  height: 34px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #000;
+}
+.Pricetext {
+  width: 35px;
+  height: 13px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13.31px;
+  color: #bdbdbd;
+}
+span {
+  width: 80px;
+  height: 17px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #000000;
+}
+
+.priceContaoner {
+  padding-right: 74px;
+}
+
+.cardConteiner:hover {
+  box-shadow: 0px 0px 30px 1px rgba(221, 211, 122, 0.477);
+  transition: all 0.4s;
+  height: 265px;
+}

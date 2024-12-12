@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.Crossmain {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 200px;
+  gap: 30px;
+}
+h1 {
+  width: 240px;
+  height: 39px;
+  font-family: Inter;
+  font-size: 32px;
+  line-height: 38.73px;
+  font-weight: 700;
+}
+
+.Crosconteiner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
